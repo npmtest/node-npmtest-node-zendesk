@@ -1,4 +1,7 @@
-# test coverage for  [node-zendesk (v1.1.12)](https://github.com/blakmatrix/node-zendesk)  [![npm package](https://img.shields.io/npm/v/npmtest-node-zendesk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-zendesk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-zendesk.svg)](https://travis-ci.org/npmtest/node-npmtest-node-zendesk)
+# npmtest-node-zendesk
+
+#### basic test coverage for  [node-zendesk (v1.1.12)](https://github.com/blakmatrix/node-zendesk)  [![npm package](https://img.shields.io/npm/v/npmtest-node-zendesk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-zendesk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-zendesk.svg)](https://travis-ci.org/npmtest/node-npmtest-node-zendesk)
+
 #### zendesk API client wrapper
 
 [![NPM](https://nodei.co/npm/node-zendesk.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-zendesk)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-zendesk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-zendesk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-zendesk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-zendesk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-zendesk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-zendesk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-zendesk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-zendesk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-zendesk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-zendesk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-zendesk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-zendesk/build/coverage.html/index.html)
 
@@ -178,7 +181,8 @@
     "scripts": {
         "test": "node ./test/*-test.js"
     },
-    "version": "1.1.12"
+    "version": "1.1.12",
+    "bin": {}
 }
 ```
 
